@@ -2,7 +2,7 @@
 
 A simple node app for taking notes. Completed application:
 
-<img width="1680" alt="Screen Shot 2020-02-09 at 8 59 22 PM" src="https://user-images.githubusercontent.com/15653252/74115881-1c8aa700-4b7f-11ea-9a81-6bb0bd681674.png">
+<img width="1138" alt="Screen Shot 2020-02-09 at 9 14 53 PM" src="https://user-images.githubusercontent.com/15653252/74116373-480e9100-4b81-11ea-8f88-074a37d6bd2a.png">
 
 ### Using the app
 
