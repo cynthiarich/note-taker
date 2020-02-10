@@ -115,7 +115,7 @@ const renderNoteList = notes => {
     var $li = $("<li class='list-group-item'>").data(note);
     var $span = $("<span>").text(note.title);
     var $delBtn = $(
-      "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
+      `<i class='fas fa-trash-alt float-right text-danger delete-note' data-id='${note.id}'>`
     );
 
     $li.append($span, $delBtn);
@@ -126,7 +126,7 @@ const renderNoteList = notes => {
 };
 
 // Gets notes from the db and renders them to the sidebar
-const getAndRenderNotes = () => {
+const getAndRenderNotes = () =>{
   return getNotes().then(data => {
     renderNoteList(data);
   });
